@@ -13,7 +13,7 @@ export default class Order {
     { }
 
     public create(): void {
-        //Llamamos a la fábrica de creación de métodos de pago
+        //Llamamos a la fábrica de creación objetos de métodos de pago
         this.metodoPago = MetodoPagoFactory.creaMetodoPago(this.tipo);
         //Calculamos la comisión
         this.comision = this.metodoPago.comision * this.totalOrden;

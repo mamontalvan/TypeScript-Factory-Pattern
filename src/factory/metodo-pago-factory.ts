@@ -4,7 +4,7 @@ import Mastercard from './tipos/Mastercard';
 import Paypal from './tipos/Paypal';
 import Visa from './tipos/Visa';
 
-//Esta clase se convierte en una fábrica de tipos de métodos de pago
+//Esta clase se convierte en una fábrica de creación de objetos - tipos métodos de pago
 export default class MetodoPagoFactory {
     //Se crea un método estático, así que no hace falta instanciarlo
     public static creaMetodoPago(tipo: TipoPago): IMetodoPago{

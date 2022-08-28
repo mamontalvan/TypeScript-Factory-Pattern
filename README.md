@@ -6,7 +6,7 @@
 - Se puede crear nuevos tipos de objetos concretos sin descomponer el código de la clase creadora de objetos o de los objetos concretos.
 
 ### Ejemplo:
-- Se requiere procesar las órdenes de compra y calcular la comisión según el método de pago.
+- Se requiere procesar las órdenes de compra y calcular la comisión según el método de pago: Visa, Mastercad o Paypal.
 
 ### Reconstruimos los paquetes:
 ```

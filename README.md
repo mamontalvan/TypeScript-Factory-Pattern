@@ -1,5 +1,5 @@
 ## Patrón Factory:
-- Es un patrón que nos permite crear objetos a partir de una clase cuyo propósito es la fabricación de nuevos objetos, los cuáles comparten una interfaz o son objetos similares.
+- Es un patrón que nos permite crear objetos a partir de una clase cuyo propósito es la fabricación de nuevos objetos, los cuáles comparten una interfaz o son objetos similares pero pueden tener un comportamiento diferente.
 
 
 
